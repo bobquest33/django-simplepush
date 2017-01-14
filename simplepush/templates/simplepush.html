@@ -1,0 +1,7 @@
+{% if request.user.is_authenticated or group %}
+  {% load staticfiles %}
+
+  <script id="simplepush-js" type="text/javascript" src="{% static 'simplepush/simplepush.js' %}"></script>
+  <script id="service-worker-js" type="text/javascript" src="{% static 'simplepush/simplepush_serviceworker.js' %}"></script>
+  <link rel="manifest" href="{% url 'simplepush_manifest_json' %}">
+{% endif %}

@@ -1,0 +1,6 @@
+{% if request.user.is_authenticated %}
+  <button id="simplepush-subscribe-button" data-url="{{ url }}">
+    Subscribe to Push Messaging
+  </button>
+  <div id="simplepush-message" hidden></div>
+{% endif %}
