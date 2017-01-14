@@ -9,7 +9,6 @@ setup(
     name="django-simplepush",
     version="0.10",
     description="A webpush notifications plugable app for Django",
-    long_description=read('README.rst'),
     url='https://github.com/subhajeet2107/django-simplepush',
     license='BSD',
     author='Subhajeet Dey',
@@ -17,8 +16,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
+    download_url = 'https://github.com/subhajeet2107/django-simplepush/archive/master.zip',
     classifiers=[
-        'Development Status :: 1 - Beta',
         'Environment :: Console',
         'Framework :: Django',
         'Intended Audience :: Developers',
