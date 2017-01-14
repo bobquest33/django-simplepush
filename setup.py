@@ -10,7 +10,7 @@ setup(
     version="0.10",
     description="A webpush notifications plugable app for Django",
     long_description=read('README.rst'),
-    url='https://github.com/shubhajeet2107/django-simplepush',
+    url='https://github.com/subhajeet2107/django-simplepush',
     license='BSD',
     author='Subhajeet Dey',
     author_email='subhajeet2107@gmail.com',
