@@ -1,0 +1,9 @@
+build
+dist
+*.pyc
+.DS_Store
+MANIFEST
+.coverage
+htmlcov
+/.idea/
+*.egg-info
