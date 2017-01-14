@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name="django-simplepush",
-    version="0.10",
+    version="0.11",
     description="A webpush notifications plugable app for Django",
     url='https://github.com/subhajeet2107/django-simplepush',
     license='BSD',
