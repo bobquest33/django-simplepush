@@ -90,7 +90,7 @@ You can send push notification as:
 	send_user_notification(user=user, payload=payload, ttl=1000)
 
 	"""
-	The user is this is subscribed user, The user will get notification to all of his subscribed browser, a user can have multiple subscriptions through various browsers or devices.
+	The user in this is subscribed user which will get notification to all of his subscribed browser, a user can have multiple subscriptions through various browsers or devices.
 	The link key in payload specifies the url which can be opened when clicking on Notification
 	"""
 
